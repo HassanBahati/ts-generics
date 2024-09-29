@@ -1,5 +1,7 @@
 type Pair<T, U> = [T, U];
 
+// syntax type T = Y is used to create aliases
+
 let examplePair: Pair<number, number> = [10, 20];
 let exampleName: Pair<string, string> = ["john", "doe"];
 
